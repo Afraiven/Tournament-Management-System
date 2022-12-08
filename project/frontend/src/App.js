@@ -1,11 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes} from 'react-router-dom';
+import Home from './pages/Home';
 
 function App() {
   return (
-    <div className="TEST">
-      <span>Api:http://localhost:8000/api/ Wyświetla: frontend > src > App.js
-      </span>
+    <div>
+      <Home></Home>
     </div>
   );
 }
