@@ -3,6 +3,7 @@ from .views import TournamentView
 
 urlpatterns = [
     path('', TournamentView.as_view()),
+    
 ]
 
 
